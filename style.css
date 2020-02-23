@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(224, 233, 173);
+}
+.feedbackContainer{
+    height: 30px;
+    margin: 0 0 12px;
+}
+.errorFeedback{
+    font-size: large;
+    padding: 5px;
+    background-color: rgba(250, 218, 218, 0.575);
+    color:red;
+}
+.successFeedback{
+    font-size: large;
+    padding: 5px;
+    background-color: rgba(218, 252, 241, 0.548);
+    color:rgb(101, 196, 7);
+}
+.container{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 5%;
+}
+form{
+    float: left;
+    width: 45%;
+}
+form > *{
+    display: block;
+    margin: 15px 0px;
+}
+.error{
+    background-color:rgba(250, 218, 218, 0.575);
+    border-color: red;
+}
+#sideImage{
+    box-sizing: border-box;
+    float: left;
+    width: 45%;
+}
+img{
+    width: 300px;
+}
+.container::after{
+    content: '';
+    display: block;
+    clear: both;
+}

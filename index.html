@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="feedbackContainer">
+            <p id="errorAlert" hidden></p>
+        </div>
+        <fieldset>
+            <form action="">
+                <input type="text" id="firstName" class="textInputs" placeholder="First Name">
+                <input type="text" id="lastName" class="textInputs" placeholder="Last Name">
+                <div id="radioContainer">
+                    <div>
+                        <input type="radio" name="gender" id="male" class="radioButtons">
+                        <label for="male">Male</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="gender" id="female" class="radioButtons">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+                <textarea name="message" id="message" class="textInputs" cols="30" rows="10" placeholder="Your message"></textarea>
+                <input type="button" value="Submit" id="submit">
+            </form>
+            <div id="sideImage">
+                <img src="https://atlas-content-cdn.pixelsquid.com/stock-images/potato-clean-QJD27E3-600.jpg" alt="Potato">
+            </div>
+        </fieldset>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
